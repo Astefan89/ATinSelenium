@@ -14,9 +14,6 @@ WebDriver driver;
 	private By cartPageTitle = By.xpath("//span[@class=\"title\"]");
 	private By cartPagePriceItem = By.xpath("//div[@class=\"inventory_item_price\"]");
 	
-	
-	
-	
 	//Actions
 	public String getCartPageTitle() {
 		return driver.findElement(cartPageTitle).getText();	

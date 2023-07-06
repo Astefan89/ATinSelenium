@@ -8,7 +8,7 @@ import testdata.URL;
 public class LoginTestLockOutUser extends BaseTest { 
 	@Test
 	
-	public void loginWithLockoutUser(){
+	public void loginWithLockoutUser() {
 		
 		LoginPage.authenticator(locked_out_user);
 		Assert.assertEquals(URL.MAIN_PAGE, LoginPage.getCurrentURL());
